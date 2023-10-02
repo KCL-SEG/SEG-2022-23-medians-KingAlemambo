@@ -7,6 +7,7 @@ while True:
         numbers = [float(value) for value in input().split(",")]
     except ValueError:
         print("Some input could not be converted to a number!")
+        print("test")
     else:
         break
 print(numbers)
