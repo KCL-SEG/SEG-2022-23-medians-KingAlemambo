@@ -10,7 +10,7 @@ while True:
         n=len(numbers)//2
         median =0
         if len(numbers) % 2 == 0:
-            median=(numbers[n] + numbers[n+1])//2
+            median=(numbers[n] + numbers[n-1])/2
         else:
             median=numbers[n]
     except ValueError:
